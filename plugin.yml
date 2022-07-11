@@ -1,0 +1,29 @@
+name: GamemodeCommands
+main: SnipeZ\gmcommands\GameModeCommands
+api: 4.0.0
+author: SnipeZ
+version: 0.0.1
+
+commands:
+  gms:
+    description: Set gamemode to Survival.
+    permission: gmcommands.gms
+  gmc:
+    description: Set gamemode to Creative.
+    permission: gmcommands.gmc
+  gmp:
+    description: Set gamemode to Spectator.
+    permission: gmcommands.gmp
+  gma:
+    description: Set gamemode to Adventure.
+    permission: gmcommands.gma
+
+permissions:
+  gmcommands.gmc:
+    default: op
+  gmcommands.gms:
+    default: op
+  gmcommands.gma:
+    default: op
+  gmcommands.gmp:
+    default: op
